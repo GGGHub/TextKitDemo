@@ -14,6 +14,7 @@
 		87D561221C0CD0780091D168 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87D561211C0CD0780091D168 /* Assets.xcassets */; };
 		87D561251C0CD0780091D168 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87D561231C0CD0780091D168 /* LaunchScreen.storyboard */; };
 		87D5612E1C0D43BD0091D168 /* TextKitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D5612D1C0D43BD0091D168 /* TextKitView.m */; settings = {ASSET_TAGS = (); }; };
+		AB9DA50B1C0F3BFA00058AE6 /* LSYTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9DA50A1C0F3BFA00058AE6 /* LSYTextStorage.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		87D561261C0CD0780091D168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87D5612C1C0D43BD0091D168 /* TextKitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextKitView.h; sourceTree = "<group>"; };
 		87D5612D1C0D43BD0091D168 /* TextKitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextKitView.m; sourceTree = "<group>"; };
+		AB9DA5091C0F3BFA00058AE6 /* LSYTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSYTextStorage.h; sourceTree = "<group>"; };
+		AB9DA50A1C0F3BFA00058AE6 /* LSYTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSYTextStorage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				87D5611C1C0CD0780091D168 /* ViewController.m */,
 				87D5612C1C0D43BD0091D168 /* TextKitView.h */,
 				87D5612D1C0D43BD0091D168 /* TextKitView.m */,
+				AB9DA5091C0F3BFA00058AE6 /* LSYTextStorage.h */,
+				AB9DA50A1C0F3BFA00058AE6 /* LSYTextStorage.m */,
 				87D5611E1C0CD0780091D168 /* Main.storyboard */,
 				87D561211C0CD0780091D168 /* Assets.xcassets */,
 				87D561231C0CD0780091D168 /* LaunchScreen.storyboard */,
@@ -158,6 +163,7 @@
 				87D5611D1C0CD0780091D168 /* ViewController.m in Sources */,
 				87D5611A1C0CD0780091D168 /* AppDelegate.m in Sources */,
 				87D561171C0CD0780091D168 /* main.m in Sources */,
+				AB9DA50B1C0F3BFA00058AE6 /* LSYTextStorage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +312,7 @@
 				87D5612B1C0CD0780091D168 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
