@@ -40,4 +40,20 @@
     [self edited:NSTextStorageEditedAttributes range:range changeInLength:0];
     [self endEditing];
 }
+-(void)processEditing
+{
+    
+    NSRange lineRange = NSUnionRange(self.editedRange, [self.string lineRangeForRange:self.editedRange]);
+    [self.attributedString.string enumerateSubstringsInRange:lineRange options:NSStringEnumerationByWords usingBlock:^(NSString * _Nullable substring, NSRange substringRange, NSRange enclosingRange, BOOL * _Nonnull stop) {
+        NSLog(@"%@",substring);
+        if ([substring isEqualToString:@"GGGHub"]) {
+            [self setAttributes:@{NSForegroundColorAttributeName:[UIColor redColor]} range:substringRange];
+        }
+        else{
+            [self setAttributes:@{NSForegroundColorAttributeName:[UIColor blackColor]} range:substringRange];
+        }
+    }];
+    [super processEditing];
+    
+}
 @end
